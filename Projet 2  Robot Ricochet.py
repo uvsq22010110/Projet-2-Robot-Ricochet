@@ -17,7 +17,15 @@ import tkinter as tk
 
 # constantes
 
-HAUTEUR = 390
-LARGEUR = 600
-COULEUR_FOND = "grey60"
+
+# programme principal
+
+racine = tk.Tk()
+racine.title("Jeu des robots")
+
+# création des widgets
+canvas = tk.Canvas(racine, width= 640, height= 640, bg= "black")
+canvas.grid()
+racine.mainloop()
+
 print("hello")
